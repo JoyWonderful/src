@@ -594,6 +594,9 @@ to {
 }
 
 
+body:has(.tk-admin.__show) {
+  overflow: hidden;
+}
 .tk-admin-container {
   position: fixed;
   top: 0;
@@ -602,6 +605,12 @@ to {
   height: 100%;
   overflow: hidden;
   pointer-events: none;
+  z-index: 99;
+}
+.tk-admin div:has(.tk-login),
+.tk-admin div:has(.tk-regist) {
+  display: flex;
+  width: 100%;
 }
 .tk-admin {
   position: absolute;
