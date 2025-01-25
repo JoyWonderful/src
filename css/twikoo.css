@@ -3,6 +3,7 @@
  * (c) 2020-2025 iMaeGoo
  * Released under the MIT License.
  * Last Update: 1/6/2025, 7:17:47 AM
+ * Edited by site's author
  */
 
 .tk-avatar {
@@ -951,5 +952,9 @@ to {
   background-color: rgba(144,147,153,0.13);
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+textarea, input {
+  font-family: lxgw;
 }
 
