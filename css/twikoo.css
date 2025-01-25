@@ -111,6 +111,7 @@
 }
 .tk-submit-action-icon.__markdown {
   color: #909399;
+  border-bottom: none;
 }
 .tk-error-message {
   word-break: break-all;
