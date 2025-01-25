@@ -169,6 +169,7 @@ to {
   text-decoration: none;
   display: flex;
   align-items: center;
+  border-bottom: none;
 }
 .tk-action-link .tk-action-icon-solid {
   display: none;
