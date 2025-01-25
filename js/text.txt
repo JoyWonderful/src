@@ -1,0 +1,9 @@
+git config receive.denyCurrentBranch ignore
+
+cat << EOF > .git/hooks/post-receive
+unset GIT_INDEX_FILE
+git --work-tree=/app --git-dir=/app/.git checkout -f
+refresh
+EOF
+
+chmod u+x .git/hooks/post-receive
