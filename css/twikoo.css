@@ -699,6 +699,9 @@ body:has(.tk-admin.__show) {
   font-size: 1rem;
   text-decoration: underline;
 }
+.tk-panel code {
+  color: #555;
+}
 .tk-panel .tk-tabs {
   display: flex;
   margin-bottom: 1em;
