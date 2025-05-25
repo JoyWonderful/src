@@ -15,5 +15,5 @@ jobs:
           source_repo: https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           source_branch: main
           destination_repo: ${{ vars.ATOM_GIT_URL }}
-          destination_branch: main
+          destination_branch: refs/heads/*
           destination_ssh_private_key: ${{ secrets.DESTINATION_SSH_PRIVATE_KEY }}
