@@ -1,0 +1,6 @@
+CloudFlare Pages 对于文件的大小写好像是敏感的，大小写不同也会返回 Not Found。
+
+博客图片： blog-{article_name}-{name}.{ext} 
+{article_name} 应该为文章名称（slug, 文件名）去掉 - 的版本，且均为小写；
+{name} 是自己定的；
+{ext} 是文件扩展名，显然也是自己定的。
