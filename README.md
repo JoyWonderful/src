@@ -66,7 +66,6 @@ Including these assets:
             <td style="text-align:left"><a href="https://fontawesome.com/"><code>Font Awesome</code></a></td>
             <td style="text-align:left"><code>/fonts/ftawsm/*</code></td>
             <td style="text-align:left"><code>7.1.0</code></td>
-            <td><img src="" alt=""></td>
         </tr>
     </tbody>
 </table>
