@@ -5,25 +5,25 @@
     <meta charset="utf-8">
     <link rel="icon" href="/favicons/favicon-64-source.png">
     <style>
-        * {margin:0; padding:0; box-sizing:border-box;}
-        body {font-family:sans-serif; padding:20px;}
-        .container {max-width:800px; margin:0 auto;}
-        header {margin-bottom:2rem; padding-bottom:1rem; border-bottom:2px solid #eaeaea;}
-        h1 {vertical-align:middle; margin-bottom:.5rem;}
-        ul {list-style:none;}
-        ul li {margin:.5rem 0;}
-        ul li:not(:has(details))::before {content:"📄"; margin-right:1px;}
-        details > ul {margin-left:1.5rem; border-left:1px solid #dfdfdf;}
-        details:hover > ul {border-left-color: #bbb;}
-        summary {display:block; cursor:pointer; padding:.25rem 0;}
-        summary:hover {background: #f5f5f5;}
-        details summary::before {content:"📁"; margin-right:1px;}
-        details[open] summary::before {content:"📂"}
-        a {color: #0066cc; text-decoration:none;}
-        a:hover {text-decoration:underline;}
-        small {color: #666; font-size:0.9em;}
-        footer {margin-top:2rem; padding-top:1rem; border-top:1px solid #eaeaea; color: #666;}
-    </style>
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family:sans-serif; padding:20px;}
+.container {max-width:800px; margin:0 auto;}
+header {margin-bottom:2rem; padding-bottom:1rem; border-bottom:2px solid #eaeaea;}
+h1 {vertical-align:middle; margin-bottom:.5rem;}
+ul {list-style:none;}
+ul li, summary {padding:.25rem 0;}
+ul li:not(:has(details))::before {content:"📄"; margin-right:1px;}
+details > ul {margin-left:1.5rem; border-left:1px solid #dfdfdf;}
+details:hover > ul {border-left-color: #bbb;}
+summary {display:block; cursor:pointer;}
+ul li:not(:has(details)):hover, summary:hover {background: #f5f5f5;}
+details summary::before {content:"📁"; margin-right:1px;}
+details[open] > summary::before {content:"📂"}
+a {color: #0066cc; text-decoration:none;}
+a:hover {text-decoration:underline;}
+small {color: #666; font-size:0.9em;}
+footer {margin-top:2rem; padding-top:1rem; border-top:1px solid #eaeaea; color: #666;}
+        </style>
 </head>
 <body>
     <div class="container">
