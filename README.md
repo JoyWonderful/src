@@ -17,7 +17,7 @@ Including these assets:
 | [`Sodesu`](https://github.com/BeiyanYunyi/sodesu) | js: `/js/sodesu.aio.umd.js` (modified) | `0.5.2` |
                                                     | stylesheet: `/css/sodesu-comment.css` (modified) |
 | [`LXGW WenKai Mono`](https://github.com/lxgw/LxgwWenKai) | `/fonts/lxgw/*` | `1.330` |
-| [`Font Awesome`](https://fontawesome.com/) | `/fonts/ftawsm/*` | `7.1.0` |
+| [`Font Awesome`](https://fontawesome.com/) | `/fonts/ftawsm/*` | `7.2.0` |
 -->
 <table>
     <thead>
@@ -65,7 +65,7 @@ Including these assets:
         <tr>
             <td style="text-align:left"><a href="https://fontawesome.com/"><code>Font Awesome</code></a></td>
             <td style="text-align:left"><code>/fonts/ftawsm/*</code></td>
-            <td style="text-align:left"><code>7.1.0</code></td>
+            <td style="text-align:left"><code>7.2.0</code></td>
         </tr>
     </tbody>
 </table>
