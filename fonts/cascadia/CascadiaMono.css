@@ -1,0 +1,19 @@
+/* cascadia-mono */
+@font-face {
+	font-family: "Cascadia Mono";
+	font-style: normal;
+	font-weight: 200 700;
+	font-stretch: 100%;
+	src: url("CascadiaMono.woff2") format("woff2");
+	font-display: swap;
+}
+/* cascadia-mono-italic */
+@font-face {
+	font-family: "Cascadia Mono";
+	font-style: italic;
+	font-weight: 200 700;
+	font-stretch: 100%;
+	src: url("CascadiaMonoItalic.woff2") format("woff2");
+	font-display: swap;
+}
+
